@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "FCG.PaymentsAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "health",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:55166;http://localhost:55167"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.swp
+
+## Publish
+publish/
+out/
+
+## Environment
+.env
+.env.*
+appsettings.*.local.json
+
+## OS
+.DS_Store
+Thumbs.db
