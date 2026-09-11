@@ -1,5 +1,6 @@
 using FCG.PaymentsAPI.Consumers;
 using MassTransit;
+using Prometheus;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -34,6 +35,10 @@ builder.Services.AddMassTransit(x =>
 });
 
 var app = builder.Build();
+
+// ── Prometheus metrics ─────────────────────────────────────────────
+app.UseHttpMetrics();
+app.MapMetrics();
 
 app.MapGet("/health", () => Results.Ok(new
 {
