@@ -78,9 +78,5 @@ kubectl apply -f k8s/service.yaml
 - **MassTransit.RabbitMQ** 8.2.5
 - **Serilog.AspNetCore** 8.0.2
 
-## Grupo 17 — Pos-Tech FIAP
-- Letícia Lopes Ribeiro Vasconcelos
+## Grupo — Pos-Tech FIAP
 - Lucas Monte Ferreri Castilho
-- Marcelo Henrique Cornelis Rei
-- Rafael Ribeiro Arantes
-- Vinícius Calixto Real
